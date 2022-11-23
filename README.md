@@ -1,5 +1,8 @@
 # colorlight_i5_v7.0 with colorlight_dual_ethernet_board
 
+j5liu, 2022-11-23
+
+
 ## hardware 
 ### i5 with eth_board
 ![full image](https://github.com/bj5/i5_eth_crack/blob/main/images/01_full.jpg)
