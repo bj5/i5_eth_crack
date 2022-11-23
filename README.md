@@ -1,4 +1,4 @@
-# colorlight i5 v7.0 with colorlight_dual_ethernet_board
+# colorlight_i5_v7.0 with colorlight_dual_ethernet_board
 
 ## hardware 
 
