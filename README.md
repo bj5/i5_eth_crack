@@ -2,11 +2,11 @@
 
 ## hardware 
 ### i5 with eth_board
-![full image](https://github.com/bj5/i5_eth_crack/blob/master/immages/01_full.jpg)
-![i5_on_board](https://github.com/bj5/i5_eth_crack/blob/master/immages/02_i5_on_board.jpg)
+![full image](https://github.com/bj5/i5_eth_crack/blob/main/images/01_full.jpg)
+![i5_on_board](https://github.com/bj5/i5_eth_crack/blob/main/images/02_i5_on_board.jpg)
 ### Uart Crack
-![uart_rx](https://github.com/bj5/i5_eth_crack/blob/master/immages/03_uart_rx.jpg)
-![uart annotated](https://github.com/bj5/i5_eth_crack/blob/master/immages/04_uart_conn.jpg)
+![uart_rx](https://github.com/bj5/i5_eth_crack/blob/main/images/03_uart_rx.jpg)
+![uart annotated](https://github.com/bj5/i5_eth_crack/blob/main/images/04_uart_conn.jpg)
 
 ## software
 
