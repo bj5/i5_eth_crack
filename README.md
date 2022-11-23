@@ -10,8 +10,6 @@ cd litex/litex-boards/litex_boards
 cd build/colorlight_i5/gateware/
 ecpdap flash write --freq 5000 colorlight_i5.bit
 litex_term /dev/ttyUSB0 
-```
-
        __   _ __      _  __
        / /  (_) /____ | |/_/
       / /__/ / __/ -_)>  <
@@ -70,3 +68,5 @@ No boot medium found
 --============= Console ================--
 
 litex> 
+
+```
