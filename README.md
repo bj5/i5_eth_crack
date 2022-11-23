@@ -2,18 +2,23 @@
 
 j5liu, 2022-11-23
 
+## hardware
 
-## hardware 
 ### i5 with eth_board
+
 ![full image](https://github.com/bj5/i5_eth_crack/blob/main/images/01_full.jpg)
 ![i5_on_board](https://github.com/bj5/i5_eth_crack/blob/main/images/02_i5_on_board.jpg)
+
 ### Uart Crack
+
 ![uart_rx](https://github.com/bj5/i5_eth_crack/blob/main/images/03_uart_rx.jpg)
 ![uart annotated](https://github.com/bj5/i5_eth_crack/blob/main/images/04_uart_conn.jpg)
 
 ## software
 
-### Use muselab colorlight_i5_expand_board to program colorlight_i5 
+### Use muselab colorlight_i5_expand_board to program colorlight_i5
+
+https://github.com/bj5/litex-boards
 
 ```
 $git clone https://github.com/bj5/litex-boards
@@ -22,7 +27,9 @@ $./colorlight_i5.py --with-spi-sdcard  --with-video-terminal  --build
 $cd build/colorlight_i5/gateware/
 $ecpdap flash write --freq 5000 colorlight_i5.bit
 ```
+
 ### plug colorlight_i5 in  colorlight_dual_ethernet_board
+
 ```
 $litex_term /dev/ttyUSB0 
        __   _ __      _  __
@@ -54,8 +61,8 @@ Initializing SDRAM @0x40000000...
 Switching SDRAM to software control.
 Switching SDRAM to hardware control.
 Memtest at 0x40000000 (2.0MiB)...
-  Write: 0x40000000-0x40200000 2.0MiB     
-   Read: 0x40000000-0x40200000 2.0MiB     
+  Write: 0x40000000-0x40200000 2.0MiB   
+   Read: 0x40000000-0x40200000 2.0MiB   
 Memtest OK
 Memspeed at 0x40000000 (Sequential, 2.0MiB)...
   Write speed: 22.1MiB/s
