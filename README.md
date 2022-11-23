@@ -1,15 +1,21 @@
-# colorlight i5 v7.0 with colorlight dual ethernet board
+# colorlight i5 v7.0 with colorlight_dual_ethernet_board
 
 ## hardware 
 
 ## software
-git clone https://github.com/bj5/litex-boards
+
+### Use muselab colorlight_i5_expand_board to program colorlight_i5 
+
 ```
-cd litex/litex-boards/litex_boards 
-./colorlight_i5.py --with-spi-sdcard  --with-video-terminal  --build
-cd build/colorlight_i5/gateware/
-ecpdap flash write --freq 5000 colorlight_i5.bit
-litex_term /dev/ttyUSB0 
+$git clone https://github.com/bj5/litex-boards
+$cd  litex_boards/litex_boards/targets/
+$./colorlight_i5.py --with-spi-sdcard  --with-video-terminal  --build
+$cd build/colorlight_i5/gateware/
+$ecpdap flash write --freq 5000 colorlight_i5.bit
+```
+### plug colorlight_i5 in  colorlight_dual_ethernet_board
+```
+$litex_term /dev/ttyUSB0 
        __   _ __      _  __
        / /  (_) /____ | |/_/
       / /__/ / __/ -_)>  <
