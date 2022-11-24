@@ -16,9 +16,10 @@ j5liu, 2022-11-23
 
 ## software
 
-### Use muselab colorlight_i5_expand_board to program colorlight_i5
+### Use muselab colorlight_i5_ext_board to program colorlight_i5
 
-https://github.com/bj5/litex-boards
+* [muselab i5 ext board](https://github.com/wuxx/Colorlight-FPGA-Projects "i5 ext board")
+* [litex-board  i5_eth_board fork ](https://github.com/bj5/litex-boards "i5_eth_board")
 
 ```
 $git clone https://github.com/bj5/litex-boards
