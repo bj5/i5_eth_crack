@@ -4,6 +4,8 @@ j5liu, 2022-11-23
 
 ## hardware
 
+![sch image](https://github.com/bj5/i5_eth_crack/blob/main/images/00_sch.jpg)
+
 ### i5 with eth_board
 
 ![full image](https://github.com/bj5/i5_eth_crack/blob/main/images/01_full.jpg)
