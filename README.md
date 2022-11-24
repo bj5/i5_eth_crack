@@ -21,6 +21,8 @@ j5liu, 2022-11-23
 * [muselab i5 ext board](https://github.com/wuxx/Colorlight-FPGA-Projects "i5 ext board")
 * [litex-board  i5_eth_board fork ](https://github.com/bj5/litex-boards "i5_eth_board")
 
+  ![i5 ext_board](https://github.com/bj5/i5_eth_crack/blob/main/images/05_i5_ext.jpg)
+
 ```
 $git clone https://github.com/bj5/litex-boards
 $cd  litex_boards/litex_boards/targets/
