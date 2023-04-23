@@ -9,8 +9,7 @@ j5liu
 
 ![rx mod](https://github.com/bj5/i5_eth_crack/blob/main/images/01_rxmod.jpg)
 
-![J1,J2,J3,J4 30 Pin](https://github.com/bj5/i5_eth_crack/blob/main/i5-eth-re.pdf)
-
+* [J1,J2,J3,J4 30 Pin](https://github.com/bj5/i5_eth_crack/blob/main/i5-eth-re.pdf "J1,J2,J3,J4 30 Pin")
 ### i5 with eth_board
 
 ![i5_on_board](https://github.com/bj5/i5_eth_crack/blob/main/images/02_i5_on_board.jpg)
