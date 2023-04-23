@@ -4,9 +4,9 @@ j5liu
 
 ## hardware
 
-- rx: Y2 (J1_1,or other)
+- rx: Y2 (J1_1,or other), !! for  J1_1 (5V) level shift reason， connected an 640 ohm resistor to  3v3 usb-uart txd pin !!
 - tx: U16
-!! for  J1_1 (5V) level shift reason， connected an 640 ohm resistor to  3v3 usb-uart txd pin !!
+
 ![rx mod](https://github.com/bj5/i5_eth_crack/blob/main/images/01_rxmod.jpg)
 
 ### i5 with eth_board
